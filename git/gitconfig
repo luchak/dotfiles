@@ -1,0 +1,19 @@
+[user]
+	name = Matt Stanton
+	email = luchak@gmail.com
+[core]
+	excludesfile = /Users/mstanton/.gitignore
+
+[diff]
+  external = $HOME/bin/git_diff_wrapper
+
+[pager]
+  diff =
+
+[alias]
+  st = status
+  di = diff
+  co = checkout
+  ci = commit
+  br = branch
+  sta = stash
