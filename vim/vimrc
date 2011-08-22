@@ -67,7 +67,7 @@ set t_ts=]0;
 set t_fs=
 set title
 
-" colorscheme molokai
+colorscheme molokai
 
 "
 " Plugin config
