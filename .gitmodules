@@ -28,3 +28,6 @@
 [submodule "vim/bundle/google-cpp-indent"]
 	path = vim/bundle/google-cpp-indent
 	url = https://github.com/vim-scripts/google.vim.git
+[submodule "vim/bundle/fswitch"]
+	path = vim/bundle/fswitch
+	url = https://github.com/derekwyatt/vim-fswitch.git

@@ -80,6 +80,11 @@ set sts=2
 set shiftwidth=2
 set expandtab
 
+autocmd BufReadPost *
+    \ if line("'\"") > 0 && line("'\"") <= line("$") |
+    \   exe "normal g`\"" |
+    \ endif
+
 "
 " Plugin config
 "
@@ -103,6 +108,11 @@ nnoremap <leader>l :TagbarToggle<CR>
 
 " Ack config
 nnoremap <leader>a :Ack
+
+" Fswitch config
+nmap <silent> <leader>ff :FSHere<CR>
+nmap <silent> <leader>fd :FSLeft<CR>
+nmap <silent> <leader>fg :FSRight<CR>
 
 
 "
