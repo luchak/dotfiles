@@ -7,6 +7,9 @@ call pathogen#helptags()
 "
 " General config
 " 
+
+set t_Co=256
+
 set nocompatible
 set modelines=0
 
