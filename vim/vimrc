@@ -14,3 +14,9 @@ nnoremap <leader>l :TagbarToggle<CR>
 " Pyflakes config
 
 " Fugitive config
+
+" NERDtree config
+
+" NERDcommenter config
+
+" Ack config
