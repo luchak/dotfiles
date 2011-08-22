@@ -9,6 +9,8 @@ defbce "on"
 
 shell -$SHELL
 
+term $TERM
+
 ##    Explanation of hardstatus line    ##
 
 # Ignore the ' marks if you use these examples for yourself
