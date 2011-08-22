@@ -1,6 +1,77 @@
 " Init Pathogen
+filetype off
 call pathogen#runtime_append_all_bundles()
+filetype plugin indent on
 call pathogen#helptags()
+
+"
+" General config
+" 
+set nocompatible
+set modelines=0
+
+set encoding=utf-8
+set scrolloff=3
+set autoindent
+set showmode
+set showcmd
+set hidden
+set wildmenu
+set wildmode=list:longest
+set visualbell
+" set cursorline
+set ttyfast
+set ruler
+set backspace=indent,eol,start
+set laststatus=2
+set relativenumber
+set undofile
+
+let mapleader = ","
+
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+" set gdefault
+set incsearch
+set showmatch
+set hlsearch
+nnoremap <leader><space> :noh<CR>
+" nnoremap <tab> %
+" vnoremap <tab> %
+
+"set wrap
+"set textwidth=79
+"set formatoptions=qrn1
+"set colorcolumn=+1
+
+set list
+set listchars=tab:▸\ ,eol:¬
+
+inoremap <F1> <ESC>
+nnoremap <F1> <ESC>
+vnoremap <F1> <ESC>
+
+" nnoremap j gj
+" nnoremap k gk
+nnoremap ; :
+
+" au FocusLost * :wa
+
+set backupdir=~/.vim-backups
+set undodir=~/.vim-undo
+set exrc
+
+set t_ts=]0;
+set t_fs=
+set title
+
+" colorscheme molokai
+
+"
+" Plugin config
+"
 
 " Command-t config
 noremap <leader>o <Esc>:CommandT<CR>
@@ -20,3 +91,11 @@ nnoremap <leader>l :TagbarToggle<CR>
 " NERDcommenter config
 
 " Ack config
+nnoremap <leader>a :Ack
+
+
+"
+" Final commands
+"
+
+set secure

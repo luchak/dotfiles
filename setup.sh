@@ -11,3 +11,5 @@ make
 
 cd ${root_dir}
 
+mkdir -p ~/.vim-backups
+mkdir -p ~/.vim-undo
