@@ -1,0 +1,24 @@
+export PATH=/usr/local/share/python:/usr/local/bin:$PATH:/Users/mstanton/bin
+
+shopt -s checkwinsize
+
+#export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
+export HISTCONTROL=ignoreboth
+shopt -s histappend
+export HISTSIZE=100000
+export HISTFILESIZE=100000
+
+alias vim='mvim -v'
+export EDITOR='mvim -v'
+
+#alias screen='export SCREENPWD=$(pwd); /usr/bin/env screen'
+#export SHELL='/bin/bash --rcfile ~/.bash_profile';
+#
+#case "$TERM" in
+#  'screen' )
+#    cd $SCREENPWD
+#    ;;
+#  'screen-bce' )
+#    cd $SCREENPWD
+#    ;;
+#esac
