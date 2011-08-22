@@ -68,6 +68,7 @@ set t_fs=
 set title
 
 colorscheme molokai
+syntax on
 
 "
 " Plugin config
