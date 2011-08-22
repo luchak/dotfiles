@@ -21,15 +21,14 @@ set showcmd
 set hidden
 set wildmenu
 set wildmode=list:longest
-set visualbell
+" set visualbell
 " set cursorline
-set ttyfast
+" set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
 set undofile
-
 set autoread
 
 let mapleader = ","
@@ -51,8 +50,8 @@ nnoremap <leader><space> :noh<CR>
 "set formatoptions=qrn1
 "set colorcolumn=+1
 
-set list
-set listchars=tab:▸\ ,eol:¬
+"set list
+"set listchars=tab:▸\ ,eol:¬
 
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
@@ -63,6 +62,12 @@ vnoremap <F1> <ESC>
 nnoremap ; :
 
 " au FocusLost * :wa
+
+nnoremap <leader>ev <C-w>s<C-w>j<C-w>L:e $MYVIMRC<CR>
+autocmd! bufwritepost $MYVIMRC source %
+nnoremap <leader>b <Esc>:make<CR>
+nnoremap <leader>cn <Esc>:cn<CR>
+nnoremap <leader>cp <Esc>:cp<CR>
 
 set backupdir=~/.vim-backups
 set undodir=~/.vim-undo
@@ -101,8 +106,11 @@ nnoremap <leader>l :TagbarToggle<CR>
 " Pyflakes config
 
 " Fugitive config
+nnoremap <leader>gs <Esc>:Gstatus<CR>
+nnoremap <leader>gc <Esc>:Gcommit<CR>
 
 " NERDtree config
+nnoremap <leader>t <Esc>:NERDTreeToggle<CR>
 
 " NERDcommenter config
 
