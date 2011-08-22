@@ -25,3 +25,6 @@
 [submodule "vim/bundle/molokai"]
 	path = vim/bundle/molokai
 	url = https://github.com/vim-scripts/molokai.git
+[submodule "vim/bundle/google-cpp-indent"]
+	path = vim/bundle/google-cpp-indent
+	url = https://github.com/vim-scripts/google.vim.git
