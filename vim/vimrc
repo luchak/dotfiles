@@ -1,8 +1,8 @@
 " Init Pathogen
 filetype off
 call pathogen#runtime_append_all_bundles()
-filetype plugin indent on
 call pathogen#helptags()
+filetype plugin indent on
 
 "
 " General config
@@ -29,6 +29,8 @@ set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
 set undofile
+
+set autoread
 
 let mapleader = ","
 
@@ -72,6 +74,11 @@ set title
 
 colorscheme molokai
 syntax on
+
+set tabstop=2
+set sts=2
+set shiftwidth=2
+set expandtab
 
 "
 " Plugin config
