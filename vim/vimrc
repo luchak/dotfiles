@@ -64,6 +64,7 @@ nnoremap ; :
 " au FocusLost * :wa
 
 nnoremap <leader>ev <C-w>s<C-w>j<C-w>L:e $MYVIMRC<CR>
+nnoremap <leader>es <C-w>s<C-w>j<C-w>L:e ~/.vim/snippets<CR>
 autocmd! bufwritepost $MYVIMRC source %
 nnoremap <leader>b <Esc>:make<CR>
 nnoremap <leader>cn <Esc>:cn<CR>
@@ -118,9 +119,12 @@ nnoremap <leader>t <Esc>:NERDTreeToggle<CR>
 nnoremap <leader>a :Ack
 
 " Fswitch config
-nmap <silent> <leader>ff :FSHere<CR>
-nmap <silent> <leader>fd :FSLeft<CR>
-nmap <silent> <leader>fg :FSRight<CR>
+nnoremap <silent> <leader>ff :FSHere<CR>
+nnoremap <silent> <leader>fd :FSLeft<CR>
+nnoremap <silent> <leader>fg :FSRight<CR>
+
+" Snipmate config
+let g:snippets_dir = "~/.vim/snippets/"
 
 
 "
