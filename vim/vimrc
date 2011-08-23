@@ -109,6 +109,7 @@ nnoremap <leader>l :TagbarToggle<CR>
 " Fugitive config
 nnoremap <leader>gs <Esc>:Gstatus<CR>
 nnoremap <leader>gc <Esc>:Gcommit<CR>
+nnoremap <leader>gp <Esc>:Git push<CR>
 
 " NERDtree config
 nnoremap <leader>t <Esc>:NERDTreeToggle<CR>
