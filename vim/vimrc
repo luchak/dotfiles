@@ -67,8 +67,8 @@ nnoremap <leader>ev <C-w>s<C-w>j<C-w>L:e $MYVIMRC<CR>
 nnoremap <leader>es <C-w>s<C-w>j<C-w>L:e ~/.vim/snippets<CR>
 autocmd! bufwritepost $MYVIMRC source %
 nnoremap <leader>b <Esc>:make<CR>
-nnoremap <leader>cn <Esc>:cn<CR>
-nnoremap <leader>cp <Esc>:cp<CR>
+nnoremap <leader>j <Esc>:cp<CR>
+nnoremap <leader>k <Esc>:cn<CR>
 
 set backupdir=~/.vim-backups
 set undodir=~/.vim-undo
