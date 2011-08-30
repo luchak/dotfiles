@@ -38,3 +38,15 @@ snippet fors
 	for (size_t ${2:i} = 0; $2 < ${1:count}; ${3:++}$2${4:}) {
 		${5:/* code */}
 	}
+snippet get
+	${2:double} ${1:foo}() const { return $1_; }
+	${3}
+snippet vget
+	virtual ${2:double} ${1:foo}() const { return $1_; }
+	${3}
+snippet set
+	void set_${1:foo}(const ${2:double} ${3:$1}) const { return $1_ = $3; }
+	${4}
+snippet vset
+	virtual void set_${1:foo}(const ${2:double} ${3:$1}) const { return $1_ = $3; }
+	${4}
