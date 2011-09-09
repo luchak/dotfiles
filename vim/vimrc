@@ -59,7 +59,7 @@ vnoremap <F1> <ESC>
 
 " nnoremap j gj
 " nnoremap k gk
-nnoremap ; :
+" nnoremap ; :
 
 " au FocusLost * :wa
 
@@ -69,7 +69,7 @@ autocmd! bufwritepost $MYVIMRC source %
 nnoremap <leader>b <Esc>:make<CR>
 nnoremap <leader>j <Esc>:cp<CR>
 nnoremap <leader>k <Esc>:cn<CR>
-nnoremap <leader>sw ^"+df=xA<Backspace> = <Esc>"+pxi;<Esc>
+nnoremap <leader>s= ^"+df=xA<Backspace> = <Esc>"+pxi;<Esc>
 
 set backupdir=~/.vim-backups
 set undodir=~/.vim-undo
