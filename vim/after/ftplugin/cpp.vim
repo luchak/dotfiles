@@ -7,4 +7,6 @@ augroup local_ftplugin_cpp
   au BufEnter *.h let b:fswitchlocs = '.'
   au BufEnter *.cc let b:fswitchlocs = '.'
   au BufEnter *.cpp let b:fswitchlocs = '.'
+
+  setf cpp
 augroup END
