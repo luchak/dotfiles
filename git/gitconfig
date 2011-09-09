@@ -15,5 +15,5 @@
   di = diff
   co = checkout
   ci = commit
-  br = branch
+  b = branch
   sta = stash
