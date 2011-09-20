@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-root_dir = $(pwd)
+root_dir=$(pwd)
 
 ln -s ${root_dir}/vim/ ~/.vim
 ln -s ${root_dir}/vim/vimrc ~/.vimrc
