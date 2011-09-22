@@ -1,8 +1,8 @@
 [user]
 	name = Matt Stanton
-	email = luchak@gmail.com
+	email = matt@mattstanton.com
 [core]
-	excludesfile = /Users/mstanton/.gitignore
+	excludesfile = $HOME/.gitignore
 
 [diff]
   external = $HOME/bin/git_diff_wrapper
