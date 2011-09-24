@@ -2,10 +2,10 @@
 	name = Matt Stanton
 	email = matt@mattstanton.com
 [core]
-	excludesfile = $HOME/.gitignore
+	excludesfile = ~/.gitignore
 
 [diff]
-  external = $HOME/bin/git_diff_wrapper
+  external = ~/bin/git_diff_wrapper
 
 [pager]
   diff =
